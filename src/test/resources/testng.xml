@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BookStoreRegressionSuite">
+	<listeners></listeners>
+	<test thread-count="2" name="Test" parallel="classes">
+		<classes>
+			<class name="bookstore.tests.AdminLoginTest"></class>
+			<class name="bookstore.tests.ContactPageTest"></class>
+			<class name="bookstore.tests.AddBooksTest"></class>
+			<class name="bookstore.tests.ViewAddedBooksTest"></class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
